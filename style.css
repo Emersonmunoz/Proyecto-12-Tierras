@@ -1,0 +1,355 @@
+
+footer {
+  margin-top: 2vw;
+  text-align: center;
+}
+
+#lista-redes {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0px 2vw;
+}
+
+li i {
+  color: #164172;
+  font-size: xx-large;
+  text-shadow: 2px 2px 15px rgb(202, 202, 202);
+}
+
+body{
+        font-family: "Montserrat", sans-serif;
+}
+
+
+
+.caja{
+    width: 940px;
+    display: flex;
+    gap:95px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+
+footer {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding:10px;
+}
+
+.mail {
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:18px;
+}
+.tel {
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:22px;
+}
+.firma{
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:2px;
+}
+
+form{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 20px; 100; AUTO;
+
+}
+
+form label, form legend{
+    display: flex;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin:20px 0;
+}
+
+.enviar{
+    width:40%;
+    padding:15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform:scale(1.2);
+}
+
+
+.image-container {
+    align-items: center;
+    justify-content: center;
+    display: flex; /* Usa flexbox para alinear las imágenes */
+    width: 100vw; /* Ancho completo de la ventana */
+    height: 100vh; /* Alto completo de la ventana (ajustable) */
+    GAP:40PX;
+}
+
+
+footer #vector{
+    width: 3%;
+    height: 3%;
+}
+
+
+/* mejorando css */
+
+.banner {
+    width:100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;  
+}
+.principal p {
+        text-align: justify; 
+}
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 100px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.mapa {
+    padding: 2em 0;
+    background:linear-gradient(#FEFEFE,#888888);
+}
+
+.mapa p{
+    margin: 0 0 5em;
+    text-align: center;
+}
+.mapa-contenido{
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+} 
+
+.contenido-diferenciales{
+    display:-moz-grid-group;
+    width: 1200px;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    display: flexbox;
+    justify-content: center;
+    width: 100%;
+    padding: 3em 0;
+    margin: 10px, 10px, auto; 
+    }   
+  
+.diferenciales #titulo-principal{
+    
+    font-size: 1em;
+    margin: 0 0 ;
+    clear: left;
+}
+
+.diferenciales p {
+    text-align: center; 
+    font-size: 16px;
+}
+.diferenciales strong{
+font-weight: bold;
+}
+
+.diferenciales em{
+font-style: italic;
+}
+
+.lista-diferenciales{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+line-height: 1.5;
+}
+
+.items:before{
+    content: '★';
+}
+.proceso{
+    padding: 3em 0;
+    background: #888888;
+}
+
+///
+gallery-section {
+    width: 60%;
+    max-width: 1000px;
+    margin: 10 10 auto;
+    padding: 20px;
+   
+}
+
+.section-divider {
+    border: none;
+    border-top: 2px solid #06f47d;
+    margin: 20px 0;
+}
+
+.photo-gallery {
+ 
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.photo-item img {
+    width: 320PX;
+    height: 200PX;
+    display: block;
+    object-fit: AUTO;
+    border: 2px solid #333; /* Recuadro alrededor de la imagen */
+   
+}
+.video{
+    width: 560px;
+    margin: 1em auto;
+}
+
+.comm{
+    width: 5%;
+    height: 5%;
+}
+///
+
+
+@media screen and (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+    h2{
+        font-size: 10px;
+        
+    }
+    nav{
+        position: static;
+    }
+    form{
+        width: 100%;
+        margin: 20px 45px;
+        align-items: center;
+    }
+    main{
+        width: 100;
+        display: inline-block;
+    }
+
+.caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .table{
+    width: auto;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 30px 0 20px 15px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.producto-descripcion{
+    font-size: 20px;
+}
+
+   
+.cabello, .barba, .cabello-barba{
+    width: 80px;
+}
+.lista-diferenciales, .imagen-diferenciales {
+    width: 100%;
+}
+} 
+
